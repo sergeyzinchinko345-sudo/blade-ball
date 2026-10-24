@@ -1569,12 +1569,12 @@ do
 										end
 									end
 
-									if tbl30.count > 13 then
+									if tbl30.count > 20 then
 										return false
 									end
 									tbl30.count = tbl30.count + 1
 
-									delay(0.2, function()
+									delay(0.1, function()
 										if tbl30.count > 0 then
 											tbl30.count = tbl30.count - 1
 										end
