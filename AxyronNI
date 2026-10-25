@@ -601,11 +601,11 @@ do
 								end
 							end)
 
-							lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/riqegopeek/NeverLose/refs/heads/main/src/interface.luau"))()
+							lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/sergeyzinchinko345-sudo/blade-ball/refs/heads/main/libs/interface.luau"))()
 							lib:Theme("white")
 
 							do
-								local oxy = lib:AddWindow("oxy", "oxy")
+								local oxy = lib:AddWindow("Axy", "AxyronNI")
 								local combat = oxy:AddTab("combat", "rbxassetid://10734951847")
 								local visual2 = oxy:AddTab("visual", "rbxassetid://10723346959")
 								local misc2 = oxy:AddTab("misc", "rbxassetid://10709797985")
